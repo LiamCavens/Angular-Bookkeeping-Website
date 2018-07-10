@@ -12,7 +12,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 
 const appRoutes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'transcription', component: TranscriptionComponent },
   { path: 'finance', component: FinanceComponent },
   { path: 'administration', component: AdministrationComponent },
