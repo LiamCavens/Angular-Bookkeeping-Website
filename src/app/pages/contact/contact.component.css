@@ -6,9 +6,11 @@ h2 {
 p {
   font-size: 25px;
   font-family: 'Oswald', sans-serif;
+  text-align: center;
 }
 
 .content-container {
+  width: 100%;
   text-align: center;
 }
 

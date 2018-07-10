@@ -9,8 +9,10 @@ import { FinanceComponent } from './pages/finance/finance.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HeaderComponent } from './shared/header/header.component';
+import { HomeComponent } from './pages/home/home.component';
 
 const appRoutes: Routes = [
+  { path: 'home', component: HomeComponent },
   { path: 'transcription', component: TranscriptionComponent },
   { path: 'finance', component: FinanceComponent },
   { path: 'administration', component: AdministrationComponent },
@@ -26,7 +28,8 @@ const appRoutes: Routes = [
     AdministrationComponent,
     AboutComponent,
     ContactComponent,
-    HeaderComponent
+    HeaderComponent,
+    HomeComponent
   ],
   imports: [BrowserModule, RouterModule.forRoot(appRoutes)],
   providers: [],
