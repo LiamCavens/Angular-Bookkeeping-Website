@@ -3,6 +3,11 @@ h3 {
   font-family: 'Vollkorn SC', serif;
 }
 
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
 p {
   font-family: 'Oswald', sans-serif;
 }

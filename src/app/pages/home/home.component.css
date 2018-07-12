@@ -1,6 +1,8 @@
 h2,
 h3 {
   font-family: 'Vollkorn SC', serif;
+  text-align: center;
+  padding: 2% 0;
 }
 
 p {

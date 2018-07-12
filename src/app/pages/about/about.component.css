@@ -3,6 +3,11 @@
   height: 30%;
 }
 
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
 h2,
 h3 {
   font-family: 'Vollkorn SC', serif;
