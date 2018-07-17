@@ -3,6 +3,7 @@ form {
   flex-direction: column;
   width: 30%;
   margin: 5% 35%;
+  padding-bottom: 5%;
 }
 
 .submit-button {
