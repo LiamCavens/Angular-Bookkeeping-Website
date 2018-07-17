@@ -24,6 +24,11 @@ li {
   padding: 1%;
 }
 
+header {
+  background-color: rgb(231,37,100);
+  color: whitesmoke;
+}
+
 li:hover {
   cursor: pointer;
 }

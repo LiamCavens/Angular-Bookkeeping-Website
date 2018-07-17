@@ -1,11 +1,12 @@
 h2,
 h3 {
   font-family: 'Vollkorn SC', serif;
+  text-decoration: underline;
+  padding: 1% 0;
 }
 
 h2 {
   text-align: center;
-  text-decoration: underline;
 }
 
 p {

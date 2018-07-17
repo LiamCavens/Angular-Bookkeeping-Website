@@ -5,14 +5,18 @@
 
 h2 {
   text-align: center;
-  text-decoration: underline;
+ 
 }
 
 h2,
 h3 {
   font-family: 'Vollkorn SC', serif;
+   text-decoration: underline;
+   padding: 1% 0;
 }
 
 p {
   font-family: 'Oswald', sans-serif;
 }
+
+

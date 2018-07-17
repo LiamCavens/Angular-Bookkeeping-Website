@@ -3,3 +3,8 @@
     margin-left: 25%;
     padding-top: 2%;
 }
+
+#background-colour {
+    background-color: rgb(48,48,48);
+    color: rgb(188,188,188);
+}
