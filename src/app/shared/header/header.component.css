@@ -32,6 +32,8 @@ header {
 
 li:hover {
   cursor: pointer;
+  color: #999;
+  transition: 1s all;
 }
 
 h1 {

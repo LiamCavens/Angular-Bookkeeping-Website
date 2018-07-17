@@ -8,3 +8,8 @@ h3 {
 p {
   font-family: 'Oswald', sans-serif;
 }
+
+.bottom-div {
+  background-color: rgb(48,48,48);
+  height: 70vh;
+}
