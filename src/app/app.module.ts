@@ -11,6 +11,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FormComponent } from './shared/form/form.component';
+import { TestimonialBoxComponent } from './shared/testimonial-box/testimonial-box.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -31,7 +32,8 @@ const appRoutes: Routes = [
     ContactComponent,
     HeaderComponent,
     HomeComponent,
-    FormComponent
+    FormComponent,
+    TestimonialBoxComponent
   ],
   imports: [BrowserModule, RouterModule.forRoot(appRoutes)],
   providers: [],
