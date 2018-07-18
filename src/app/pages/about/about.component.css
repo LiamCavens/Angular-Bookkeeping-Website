@@ -1,6 +1,13 @@
 #kat-pic {
-  width: 30%;
-  height: 30%;
+  width: 50%;
+  height: 50%;
+  transition: 1s all;
+  transition-delay: 0.5s;
+}
+
+#kat-pic:hover {
+  transform: scale(1.2);
+  transition: 1s all;
 }
 
 h2 {
@@ -17,6 +24,13 @@ h3 {
 
 p {
   font-family: 'Oswald', sans-serif;
+}
+
+.about-img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 5% 0;
 }
 
 
